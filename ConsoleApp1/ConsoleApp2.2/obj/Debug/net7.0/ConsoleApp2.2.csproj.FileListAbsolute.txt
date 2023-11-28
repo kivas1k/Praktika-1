@@ -12,3 +12,17 @@ C:\Users\gr622_sivvya\RiderProjects\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\r
 C:\Users\gr622_sivvya\RiderProjects\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.pdb
 C:\Users\gr622_sivvya\RiderProjects\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.genruntimeconfig.cache
 C:\Users\gr622_sivvya\RiderProjects\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ref\ConsoleApp2.2.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\bin\Debug\net7.0\ConsoleApp2.2.exe
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\bin\Debug\net7.0\ConsoleApp2.2.deps.json
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\bin\Debug\net7.0\ConsoleApp2.2.runtimeconfig.json
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\bin\Debug\net7.0\ConsoleApp2.2.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\bin\Debug\net7.0\ConsoleApp2.2.pdb
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.AssemblyInfoInputs.cache
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.AssemblyInfo.cs
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.csproj.CoreCompileInputs.cache
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\refint\ConsoleApp2.2.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.pdb
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ConsoleApp2.2.genruntimeconfig.cache
+C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp2.2\obj\Debug\net7.0\ref\ConsoleApp2.2.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gr622_sivvya\\Desktop\\dsdfsw\\ConsoleApp1\\ConsoleApp2.4\\ConsoleApp2.4.csproj",
+      "projectUniqueName": "C:\\Users\\gr622_sivvya\\Desktop\\Praktika 1\\ConsoleApp1\\ConsoleApp2.4\\ConsoleApp2.4.csproj",
       "projectName": "ConsoleApp2.4",
-      "projectPath": "C:\\Users\\gr622_sivvya\\Desktop\\dsdfsw\\ConsoleApp1\\ConsoleApp2.4\\ConsoleApp2.4.csproj",
+      "projectPath": "C:\\Users\\gr622_sivvya\\Desktop\\Praktika 1\\ConsoleApp1\\ConsoleApp2.4\\ConsoleApp2.4.csproj",
       "packagesPath": "C:\\Users\\gr622_sivvya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gr622_sivvya\\Desktop\\dsdfsw\\ConsoleApp1\\ConsoleApp2.4\\obj\\",
+      "outputPath": "C:\\Users\\gr622_sivvya\\Desktop\\Praktika 1\\ConsoleApp1\\ConsoleApp2.4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gr622_sivvya\\AppData\\Roaming\\NuGet\\NuGet.Config"
