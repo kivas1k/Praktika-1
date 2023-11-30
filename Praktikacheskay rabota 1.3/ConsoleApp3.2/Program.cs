@@ -7,25 +7,22 @@ namespace Program2
     {
         public static void Main()
         {
-            Console.WriteLine("Укажите точный путь до файла");
-
-            string pathInput = Console.ReadLine();
-
-            string stringNumbers = File.ReadAllText(pathInput);
+            string path = @"C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.3\ConsoleApp3.2\bin\Debug\net7.0\nums.txt";
             
-            File.WriteAllText(pathInput, string.Empty);  // Очистка
+            string[] pathInput = File.ReadAllLines(path);
+            
+            File.WriteAllText(path, string.Empty);  // Очистка
             
             string write = string.Empty;    // Запись
 
-            foreach (string num in stringNumbers.Split(" "))
+            foreach (string num in pathInput[0].Split(" "))
             {
                 if (num != "" && int.Parse(num) % 2 != 0)
                 {
                     write += num + " ";
                 }
             }
-
-            File.WriteAllText(pathInput, write);
+            File.WriteAllText(path, write);
         }
     }
 }
