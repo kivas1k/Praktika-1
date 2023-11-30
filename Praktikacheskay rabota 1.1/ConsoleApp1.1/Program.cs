@@ -21,6 +21,6 @@ class Program
                 minIndex = i;
             }
         }
-        Console.WriteLine("Индекс минимального элемента:" +  minIndex);
+        Console.WriteLine("Индекс минимального элемента: " +  minIndex);
     }
 }
