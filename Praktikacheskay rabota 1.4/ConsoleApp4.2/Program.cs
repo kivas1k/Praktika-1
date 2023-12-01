@@ -8,6 +8,7 @@ class Program
     {
         double sum = 0;
         using (StreamReader reader = new StreamReader(@"C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.4\ConsoleApp4.2\bin\Debug\net7.0\numsTask2.txt.txt"))
+
         {
             string line = reader.ReadLine();
             string[] num = line.Split(";");
