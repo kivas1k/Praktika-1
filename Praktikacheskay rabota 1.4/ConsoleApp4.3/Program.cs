@@ -36,7 +36,7 @@ class Program
 // Проверяем, что минимальное и максимальное числа не остались равными и 0 не было найдено
         if (min != int.MaxValue && max != int.MinValue)
         {
-            double ratio = (double)min / max;
+            double ratio = (double) min / max;
             
             Console.WriteLine($"Отношение минимального и максимального чисел: {ratio}");
         }

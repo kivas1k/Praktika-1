@@ -1,0 +1,17 @@
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.csproj.AssemblyReference.cache
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.AssemblyInfoInputs.cache
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.AssemblyInfo.cs
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.csproj.CoreCompileInputs.cache
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\bin\Debug\net7.0\Praktikacheskay rabota 1.7.exe
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\bin\Debug\net7.0\Praktikacheskay rabota 1.7.deps.json
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\bin\Debug\net7.0\Praktikacheskay rabota 1.7.runtimeconfig.json
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\bin\Debug\net7.0\Praktikacheskay rabota 1.7.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\bin\Debug\net7.0\Praktikacheskay rabota 1.7.pdb
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.csproj.CopyComplete
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\refint\Praktikacheskay rabota 1.7.dll
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.pdb
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\Praktikacheskay rabota 1.7.genruntimeconfig.cache
+C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.7\Praktikacheskay rabota 1.7\obj\Debug\net7.0\ref\Praktikacheskay rabota 1.7.dll
