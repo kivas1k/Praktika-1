@@ -4,7 +4,7 @@ namespace WeatherApp
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             WeatherData weatherData = new WeatherData();
 
@@ -12,7 +12,7 @@ namespace WeatherApp
             {
                 string city = args[0];
                 
-                await weatherData.GetWeather(city);
+                weatherData.GetWeather(city);
             }
             else
             {
@@ -22,7 +22,7 @@ namespace WeatherApp
                 
                 weatherData.DefaultCity = defaultCity;
                 
-                await weatherData.GetWeather(weatherData.DefaultCity);
+                weatherData.GetWeather(weatherData.DefaultCity);
             }
         }
     }
@@ -44,14 +44,14 @@ namespace WeatherApp
             }
             else
             {
-                printDefault(city);
-                Thread.Sleep(900);
+                GetWeather(city);
+                //Thread.Sleep(900);
             }
         }
 
         public string DefaultCity { get; set; }
 
-        public async Task GetWeather(string city)
+        public void GetWeather(string city)
         {
             string apiKey = "56e7fe704b986ccde6b69740196c1f65";
             
@@ -60,11 +60,11 @@ namespace WeatherApp
             using (HttpClient client = new HttpClient())
             {
 
-                HttpResponseMessage response = await client.GetAsync(apiUrl);
+                var response =  client.GetAsync(apiUrl).Result;
                 
                 if (response.IsSuccessStatusCode)
                 {
-                    string responseBody = await response.Content.ReadAsStringAsync();
+                    string responseBody = response.Content.ReadAsStringAsync().Result;;
                     
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(responseBody);
 
@@ -84,40 +84,5 @@ namespace WeatherApp
                 }
             }
         }
-
-        public static async Task printDefault(string city)
-        {
-            string apiKey = "56e7fe704b986ccde6b69740196c1f65";
-            
-            string apiUrl = $"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric";
-
-            using (HttpClient client = new HttpClient())
-            {
-
-                HttpResponseMessage response = await client.GetAsync(apiUrl);
-                
-                if (response.IsSuccessStatusCode)
-                {
-                    string responseBody = await response.Content.ReadAsStringAsync();
-                    
-                    WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(responseBody);
-
-                    Console.WriteLine($"Weather in {city}:");
-                    
-                    Console.WriteLine($"Temperature: {weatherResponse.main.temp}°C");
-                    
-                    Console.WriteLine($"Feels like: {weatherResponse.main.feelslike}°C");
-                    
-                    Console.WriteLine($"Description: {weatherResponse.weather[0].description}");
-                    
-                    Console.WriteLine($"Wind speed: {weatherResponse.wind.speed} m/s");
-                }
-                else
-                {
-                    Console.WriteLine("Failed to retrieve weather data. Please try again.");
-                }
-            }
-        }
-        
     }
 }

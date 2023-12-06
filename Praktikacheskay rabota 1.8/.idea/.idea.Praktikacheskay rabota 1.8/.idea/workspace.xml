@@ -8,9 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03f6e953-7eb7-4b6e-b059-7cb0ad58a4dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Praktikacheskay rabota 1.8/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Praktikacheskay rabota 1.8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Praktikacheskay rabota 1.8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Program1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Program1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" afterDir="false" />
@@ -18,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/ref/Praktikacheskay rabota 1.8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/ref/Praktikacheskay rabota 1.8.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/refint/Praktikacheskay rabota 1.8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/refint/Praktikacheskay rabota 1.8.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +73,7 @@
       <updated>1701857011830</updated>
       <workItem from="1701857015340" duration="2370000" />
       <workItem from="1701859419469" duration="1518000" />
+      <workItem from="1701861085232" duration="779000" />
     </task>
     <servers />
   </component>
