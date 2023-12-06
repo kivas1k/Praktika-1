@@ -1,7 +1,4 @@
-using System;
 using Newtonsoft.Json;
-using System.IO;
-using System.Collections.Generic;
 
 namespace DailyPlanner
 {
@@ -42,9 +39,15 @@ namespace DailyPlanner
 
                     Console.WriteLine("7. View all Task");
 
-                    Console.WriteLine("8. Enter the index of the task to mark as completed");
+                    Console.WriteLine("8. View  all Completed Tasks");
 
-                    Console.WriteLine("9. Exit");
+                    Console.WriteLine("9. View all Unfinished tasks");
+
+                    Console.WriteLine("10. Enter the index of the task to mark as completed");
+
+                    Console.WriteLine("11. Exit");
+                    
+                    Console.WriteLine();
 
                     int choice = int.Parse(Console.ReadLine());
 
@@ -53,6 +56,8 @@ namespace DailyPlanner
                         case 1:
 
                             Console.WriteLine("Enter new name:");
+                            
+                            Console.WriteLine();
 
                             string name = Console.ReadLine();
                             
@@ -77,6 +82,8 @@ namespace DailyPlanner
                         case 2:
 
                             Console.WriteLine("Enter the index of the task to delete:");
+                            
+                            Console.WriteLine();
 
                             int index = int.Parse(Console.ReadLine());
                             
@@ -89,24 +96,32 @@ namespace DailyPlanner
                         case 3:
 
                             Console.WriteLine("Enter the index of the task to edit:");
+                            
+                            Console.WriteLine();
 
                             int editIndex = int.Parse(Console.ReadLine());
                             
                             Console.WriteLine();
 
                             Console.WriteLine("Enter new name:");
+                            
+                            Console.WriteLine();
 
                             string newName = Console.ReadLine();
                             
                             Console.WriteLine();
 
                             Console.WriteLine("Enter new task description:");
+                            
+                            Console.WriteLine();
 
                             string newDescription = Console.ReadLine();
                             
                             Console.WriteLine();
 
                             Console.WriteLine("Enter new task date (yyyy-MM-dd):");
+                            
+                            Console.WriteLine();
 
                             DateTime newDate = DateTime.Parse(Console.ReadLine());
                             
@@ -123,11 +138,15 @@ namespace DailyPlanner
                         case 4:
 
                             Console.WriteLine("Tasks for today:");
+                            
+                            Console.WriteLine();
 
                             foreach (Task task in tasks)
                             {
                                 if (task.Date.Date == DateTime.Today)
                                 {
+                                    Console.WriteLine();
+                                    
                                     Console.WriteLine(
                                         $"{task.Name} - {task.Description} - {task.Date.ToString("yyyy-MM-dd")}");
                                 }
@@ -138,11 +157,15 @@ namespace DailyPlanner
                         case 5:
 
                             Console.WriteLine("Tasks for tomorrow:");
+                            
+                            Console.WriteLine();
 
                             foreach (Task task in tasks)
                             {
                                 if (task.Date.Date == DateTime.Today.AddDays(1))
                                 {
+                                    Console.WriteLine();
+                                    
                                     Console.WriteLine(
                                         $"{task.Name} - {task.Description} - {task.Date.ToString("yyyy-MM-dd")}");
                                 }
@@ -153,6 +176,8 @@ namespace DailyPlanner
                         case 6:
 
                             Console.WriteLine("Tasks for the week:");
+                            
+                            Console.WriteLine();
 
                             DateTime startOfWeek = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek);
 
@@ -162,6 +187,8 @@ namespace DailyPlanner
                             {
                                 if (task.Date.Date >= startOfWeek && task.Date.Date <= endOfWeek)
                                 {
+                                    Console.WriteLine();
+                                    
                                     Console.WriteLine(
                                         $"{task.Name} - {task.Description} - {task.Date.ToString("yyyy-MM-dd")}");
                                 }
@@ -172,10 +199,14 @@ namespace DailyPlanner
                         case 7:
 
                             Console.WriteLine("All tasks:");
+                            
+                            Console.WriteLine();
 
                             foreach (var task in tasks)
                             {
                                 string status = task.Date.Date > DateTime.Today ? "Upcoming" : "Completed";
+                                
+                                Console.WriteLine();
 
                                 Console.WriteLine(
                                     $"{task.Name} - {task.Description} - {task.Date.ToString("yyyy-MM-dd")} - {status} - Completed: {task.IsCompleted}");
@@ -185,7 +216,45 @@ namespace DailyPlanner
 
                         case 8:
 
+                            Console.WriteLine("8. View  all Completed Tasks");
+                            
+                            Console.WriteLine();
+
+                            foreach (var task in tasks)
+                            {
+                                if (task.IsCompleted)
+                                {
+                                    Console.WriteLine();
+                                    
+                                    Console.WriteLine($"{task.Name} - {task.Description} - {task.Date.ToString("yyyy-MM-dd")}");
+                                }
+                            }
+                            
+                            break;
+                        
+                        case 9:
+
+                            Console.WriteLine("9. View all Unfinished tasks");
+                            
+                            Console.WriteLine();
+
+                            foreach (var task in tasks)
+                            {
+                                if (!task.IsCompleted)
+                                {
+                                    Console.WriteLine();
+                                    
+                                    Console.WriteLine($"{task.Name} - {task.Description} - {task.Date.ToString("yyyy-MM-dd")}");
+                                }
+                            }
+
+                            break;
+                        
+                        case 10:
+
                             Console.WriteLine("Enter the index of the task to mark as completed:");
+                            
+                            Console.WriteLine();
 
                             int completedIndex = int.Parse(Console.ReadLine());
                             
@@ -208,11 +277,13 @@ namespace DailyPlanner
 
                             break;
 
-                        case 9:
+                        case 11:
 
                             string json = JsonConvert.SerializeObject(tasks);
                             
                             File.WriteAllText(fileName, json);
+                            
+                            Console.WriteLine();
                             
                             Console.WriteLine("bye bye");
 
@@ -222,6 +293,8 @@ namespace DailyPlanner
             }
             else if (userInput.ToLower() == "no")
             {
+                Console.WriteLine();
+                
                 Console.WriteLine("bye bye");
             }
             else
