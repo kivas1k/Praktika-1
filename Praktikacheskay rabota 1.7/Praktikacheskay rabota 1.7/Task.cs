@@ -1,5 +1,4 @@
-﻿
-namespace DailyPlanner
+﻿namespace DailyPlanner
 {
     public class Task
     {

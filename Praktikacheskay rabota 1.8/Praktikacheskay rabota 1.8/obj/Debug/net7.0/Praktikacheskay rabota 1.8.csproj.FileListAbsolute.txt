@@ -15,3 +15,21 @@ C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.8\Praktikaches
 C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.pdb
 C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.genruntimeconfig.cache
 C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\ref\Praktikacheskay rabota 1.8.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\bin\Debug\net7.0\Praktikacheskay rabota 1.8.exe
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\bin\Debug\net7.0\Praktikacheskay rabota 1.8.deps.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\bin\Debug\net7.0\Praktikacheskay rabota 1.8.runtimeconfig.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\bin\Debug\net7.0\Praktikacheskay rabota 1.8.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\bin\Debug\net7.0\Praktikacheskay rabota 1.8.pdb
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.csproj.AssemblyReference.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.AssemblyInfoInputs.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.AssemblyInfo.cs
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.csproj.CoreCompileInputs.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.sourcelink.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.csproj.CopyComplete
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\refint\Praktikacheskay rabota 1.8.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.pdb
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\Praktikacheskay rabota 1.8.genruntimeconfig.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.8\Praktikacheskay rabota 1.8\obj\Debug\net7.0\ref\Praktikacheskay rabota 1.8.dll

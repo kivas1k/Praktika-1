@@ -1,31 +1,79 @@
-﻿namespace WeatherApp
+using Newtonsoft.Json;
+
+namespace WeatherApp
 {
-    internal class AttributeWeather
+    class Program
     {
-        public string main { get; set; }
-        
-        public string description { get; set; }
+        static void Main(string[] args)
+        {
+            WeatherData weatherData = new WeatherData();
+
+            if (args.Length > 0)
+            {
+                string city = args[0];
+                
+                weatherData.GetWeather(city);
+            }
+            else
+            {
+                Console.Write("Enter city: ");
+                
+                string defaultCity = Console.ReadLine();
+                
+                weatherData.DefaultCity = defaultCity;
+                
+                weatherData.GetWeather(weatherData.DefaultCity);
+            }
+        }
     }
-
-    internal class AttributeMain
+    class WeatherData
     {
-        public float temp { get; set; }
-        
-        public float feels_like { get; set; }
-    }
+        public string path;
 
-    internal class AttributeWind
-    {
-        public float speed { get; set; }
+        public string city;
 
-    }
+        public WeatherData()
+        {
+            path = Directory.GetCurrentDirectory() + "/default.txt";
 
-    internal class WeatherResponse
-    {
-        public List<AttributeWeather> weather { get; set; }
+            city = File.ReadAllText(path);
+
+            if (city.Equals(string.Empty))
+            {
+                Console.WriteLine("Nothing");
+            }
+            else
+            {
+                GetWeather(city);
+            }
+        }
         
-        public AttributeMain main { get; set; }
-        
-        public AttributeWind wind { get; set; }
+        public string DefaultCity { get; set; }
+
+        public void GetWeather(string city)
+        {
+            string apiKey = "56e7fe704b986ccde6b69740196c1f65";
+            
+            string apiUrl = $"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric";
+
+            using (HttpClient client = new HttpClient())
+            {
+
+                var response =  client.GetAsync(apiUrl).Result;
+                
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseBody = response.Content.ReadAsStringAsync().Result;;
+                    
+                    WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(responseBody);
+
+                    Console.WriteLine($"Weather in {city}:\nTemperature: {weatherResponse.main.temp}°C\nFeels like: {weatherResponse.main.feels_like}°C\nDescription: {weatherResponse.weather[0].description}\nWind speed: {weatherResponse.wind.speed} m/s");
+                }
+                else
+                {
+                    Console.WriteLine("Failed to retrieve weather data. Please try again.");
+                }
+            }
+        }
     }
 }
