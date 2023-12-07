@@ -11,7 +11,7 @@
     {
         public float temp { get; set; }
         
-        public float feelslike { get; set; }
+        public float feels_like { get; set; }
     }
 
     internal class AttributeWind
@@ -27,10 +27,5 @@
         public AttributeMain main { get; set; }
         
         public AttributeWind wind { get; set; }
-    }
-
-    internal class Default
-    {
-
     }
 }

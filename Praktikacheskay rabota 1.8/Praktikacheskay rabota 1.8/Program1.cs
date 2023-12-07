@@ -45,10 +45,9 @@ namespace WeatherApp
             else
             {
                 GetWeather(city);
-                //Thread.Sleep(900);
             }
         }
-
+        
         public string DefaultCity { get; set; }
 
         public void GetWeather(string city)
@@ -72,7 +71,7 @@ namespace WeatherApp
                     
                     Console.WriteLine($"Temperature: {weatherResponse.main.temp}°C");
                     
-                    Console.WriteLine($"Feels like: {weatherResponse.main.feelslike}°C");
+                    Console.WriteLine($"Feels like: {weatherResponse.main.feels_like}°C");
                     
                     Console.WriteLine($"Description: {weatherResponse.weather[0].description}");
                     
