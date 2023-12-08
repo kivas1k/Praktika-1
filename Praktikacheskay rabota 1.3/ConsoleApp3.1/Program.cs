@@ -1,11 +1,8 @@
-﻿using System;
-using System.IO;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
-        string[] lines = File.ReadAllLines(@"C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.3\ConsoleApp3.1\bin\Debug\net7.0\input.txt");
+        string[] lines = File.ReadAllLines(@"C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.3\ConsoleApp3.1\bin\Debug\net7.0\input.txt");
 
         string[] chosenNumbers = lines[0].Split(' ');
 
@@ -20,7 +17,6 @@ class Program
 
             foreach (string num in ticketNumbers)
             {
-
                 foreach (string num2 in chosenNumbers)
                 {
                     if (num == num2)
@@ -30,7 +26,7 @@ class Program
                     }
                 }
             }
-
+            
             if (count >= 3)
             {
                 results.Add("Lucky"); // Если билет выигрышный, сохраняем результат в List
@@ -41,7 +37,7 @@ class Program
             }
         }
 
-        File.WriteAllLines(@"C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.3\ConsoleApp3.1\bin\Debug\net7.0\output.txt", 
+        File.WriteAllLines(@"C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.3\ConsoleApp3.1\bin\Debug\net7.0\output.txt", 
             results.ToArray()); // Запись результатов в файл
     }
 }

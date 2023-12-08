@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
         // Создаем и заполняем массив со случайными дробными числами
         Random random = new Random();
+        
         int length = random.Next(1, 10);
+        
         double[] array = new double[length];
+        
         for (int i = 0; i < length; i++)
         {
             array[i] = random.NextDouble() * (random.Next(0, 2) == 0 ? -1 : 1);
@@ -16,6 +16,7 @@ class Program
 
         // Создаем два новых массива для положительных и отрицательных элементов
         List<double> positiveElements = new List<double>();
+        
         List<double> negativeElements = new List<double>();
 
         // Разделяем элементы исходного массива на положительные и отрицательные

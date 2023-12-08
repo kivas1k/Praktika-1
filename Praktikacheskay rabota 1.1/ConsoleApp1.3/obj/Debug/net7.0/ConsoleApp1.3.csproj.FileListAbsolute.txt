@@ -1,0 +1,15 @@
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\bin\Debug\net7.0\ConsoleApp1.3.exe
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\bin\Debug\net7.0\ConsoleApp1.3.deps.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\bin\Debug\net7.0\ConsoleApp1.3.runtimeconfig.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\bin\Debug\net7.0\ConsoleApp1.3.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\bin\Debug\net7.0\ConsoleApp1.3.pdb
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.AssemblyInfoInputs.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.AssemblyInfo.cs
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.csproj.CoreCompileInputs.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.sourcelink.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\refint\ConsoleApp1.3.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.pdb
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ConsoleApp1.3.genruntimeconfig.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.3\obj\Debug\net7.0\ref\ConsoleApp1.3.dll

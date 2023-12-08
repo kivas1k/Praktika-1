@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Program5
+﻿namespace Program5
 {
     class Program5
     {
-        public static Random _rand = new Random();
+        public static Random rand = new Random();
 
-        public static Dictionary<string, int[]> GetRandomFilledTemperatureDictionary()
+        public static Dictionary<string, int[]> RandomFilledTemperatureDictionary()
         {
             Dictionary<string, int[]> temperatureYear = new Dictionary<string, int[]>();
             string[] months = 
@@ -31,7 +28,7 @@ namespace Program5
                 int[] monthTemperatures = new int[30];
                 for (int j = 0; j < 30; j++)
                 {
-                    monthTemperatures[j] = _rand.Next(averageTemperature[i] - 10, averageTemperature[i] + 10);
+                    monthTemperatures[j] = rand.Next(averageTemperature[i] - 10, averageTemperature[i] + 10);
                 }
                 temperatureYear.Add(months[i], monthTemperatures);
             }
@@ -39,7 +36,7 @@ namespace Program5
             return temperatureYear;
         }
 
-        public static Dictionary<string, int> GetAverageTemperaturePerMonth(Dictionary<string, int[]> temperatureYear)
+        public static Dictionary<string, int> AverageTemperaturePerMonth(Dictionary<string, int[]> temperatureYear)
         {
             Dictionary<string, int> averageTemperatures = new Dictionary<string, int>();
 
@@ -59,9 +56,9 @@ namespace Program5
 
         public static void Main()
         {
-            Dictionary<string, int[]> temperatureYear = GetRandomFilledTemperatureDictionary();
+            Dictionary<string, int[]> temperatureYear = RandomFilledTemperatureDictionary();
             
-            Dictionary<string, int> averageTemperatures = GetAverageTemperaturePerMonth(temperatureYear);
+            Dictionary<string, int> averageTemperatures = AverageTemperaturePerMonth(temperatureYear);
 
             Console.WriteLine("Average temperatures by month:");
             

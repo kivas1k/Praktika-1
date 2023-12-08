@@ -1,12 +1,13 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
         Console.Write("Введите количество строк: ");
+        
         int n = int.Parse(Console.ReadLine());
+        
         Console.Write("Введите количество столбцов: ");
+        
         int m = int.Parse(Console.ReadLine());
 
         int[,] matrix = new int[n, m];
@@ -14,6 +15,7 @@ class Program
         for (int i = 0; i < n; i++)
         {
             Console.WriteLine($"Введите элементы {i+1}-й строки, разделенные пробелом: ");
+            
             string[] input = Console.ReadLine().Split(' ');
 
             for (int j = 0; j < m; j++)
@@ -24,6 +26,7 @@ class Program
 
         // Добавление столбца с четным количеством единиц
         int[,] newMatrix = new int[n, m + 1];
+        
         for (int i = 0; i < n; i++)
         {
             int count = 0;
@@ -48,6 +51,7 @@ class Program
         }
 
         Console.WriteLine("Новая матрица:");
+        
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m + 1; j++)

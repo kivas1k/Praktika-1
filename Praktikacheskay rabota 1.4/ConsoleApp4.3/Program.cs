@@ -1,16 +1,14 @@
-﻿using System;
-using System.IO;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
         
-        string content = File.ReadAllText(@"C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.4\ConsoleApp4.3\bin\Debug\net7.0\numsTask3.txt.txt");
+        string content = File.ReadAllText(@"C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.4\ConsoleApp4.3\bin\Debug\net7.0\numsTask3.txt.txt");
         
         string[] numbers = content.Split(',');
         
         int min = int.MaxValue;
+        
         int max = int.MinValue;
 
 // Проходим по каждому числу в массиве и находим минимальное и максимальное число

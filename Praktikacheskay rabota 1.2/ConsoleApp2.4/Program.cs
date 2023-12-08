@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace Program4
+﻿namespace Program4
 {
     class Program4
     {
-        public static Random _rand = new Random();
+        public static Random rand = new Random();
 
-        public static float[,] GetRandomFilledMatrixTemperatureYear()
+        public static float[,] RandomFilledMatrixTemperatureYear()
         {
             float[,] temperatureYear = new float[12, 30];
             int[] averageTemperature =
@@ -20,12 +18,12 @@ namespace Program4
             {
                 for (int j = 0; j < 30; ++j)
                 {
-                    temperatureYear[i, j] = _rand.Next(averageTemperature[i] - 10, averageTemperature[i] + 10);
+                    temperatureYear[i, j] = rand.Next(averageTemperature[i] - 10, averageTemperature[i] + 10);
                 }
             }
             return temperatureYear;
         }
-        public static float[] GetArrAverageTemperaturesMonths(ref float[,] matrixYear)
+        public static float[] AverageTemperaturesMonths(ref float[,] matrixYear)
         {
             float[] averageTemperaturesMonths = new float[12];
             for (int i = 0; i < 12; ++i)
@@ -47,15 +45,17 @@ namespace Program4
 
         public static void Main()
         {
-            float[,] temperatureYear = GetRandomFilledMatrixTemperatureYear();
-            float[] averageTemperaturesMonths = GetArrAverageTemperaturesMonths(ref temperatureYear);
+            float[,] temperatureYear = RandomFilledMatrixTemperatureYear();
+            float[] averageTemperaturesMonths = AverageTemperaturesMonths(ref temperatureYear);
             SortArrFloat(ref averageTemperaturesMonths);
             float averageTemperaturesYear = 0;
 
             Console.WriteLine("Sorted array of average temperatures by month:");
+            
             foreach (float temperature in averageTemperaturesMonths)
             {
                 Console.WriteLine($"{(int)temperature}°C"); // Приведение к целому числу для отображения целых чисел
+                
                 averageTemperaturesYear += temperature;
             }
 

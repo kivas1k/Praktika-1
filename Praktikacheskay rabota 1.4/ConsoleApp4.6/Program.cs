@@ -8,9 +8,11 @@ namespace Program6
         {
             /* Форумала для кода: ( y - 2 ) / -2.5 = x  */
             Console.WriteLine("Введите число a: "); 
+            
             float numA = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Введите число b: "); 
+            
             float numB = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             
             if (( ((numB - 2) / 2.5f) <= numA && ((numB - 2) / -2.5f) >= numA ) && (numB >= -3 && numB <= 2)) 

@@ -1,24 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
         List<string> elements = new List<string>();
 
         string input;
+        
         do
         {
             Console.WriteLine("Введите элемент списка");
+            
             input = Console.ReadLine();
 
-            if (!string.IsNullOrEmpty(input))
+            if (input != null && input != "")
             {
                 elements.Add(input);
             }
 
-        } while (!string.IsNullOrEmpty(input));
+        } while (input != "");
 
         if (elements.Count > 0)
         {
@@ -39,6 +38,7 @@ class Program
             }
 
             Console.WriteLine("Самый короткий элемент: " + shortest);
+            
             Console.WriteLine("Самый длинный элемент: " + longest);
         }
     }

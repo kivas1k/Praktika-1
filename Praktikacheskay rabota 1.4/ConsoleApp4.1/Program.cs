@@ -1,10 +1,9 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Введите целое положительное число ");
+        
         int n = Convert.ToInt32(Console.ReadLine());
 
         int product = 1;
@@ -13,8 +12,6 @@ class Program
         {
             product *= i;
         }
-
         Console.WriteLine("Ответ: " + product);
-
     }
 }

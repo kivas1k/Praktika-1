@@ -7,9 +7,11 @@ namespace Program5
         public static void Main()
         {
             Console.WriteLine("Введите число a: "); 
+            
             float numA = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Введите число b: "); // y
+            
             float numB = float.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             if ((numA >= -1 && numA <= 3) && (numB >= -2 && numB <= 4))

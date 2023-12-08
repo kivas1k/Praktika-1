@@ -1,11 +1,8 @@
-﻿using System;
-using System.IO;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
-        string file = @"C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.4\ConsoleApp4.4\bin\Debug\net7.0\numsTask4.txt.txt";
+        string file = @"C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.4\ConsoleApp4.4\bin\Debug\net7.0\numsTask4.txt.txt";
         
             string[] num = File.ReadAllLines(file)[0].Split(' ');
 

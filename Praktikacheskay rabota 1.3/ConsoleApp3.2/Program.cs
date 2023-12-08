@@ -1,13 +1,10 @@
-﻿using System;
-using System.IO;
-
-namespace Program2
+﻿namespace Program2
 {
     class Program2
     {
         public static void Main()
         {
-            string path = @"C:\Users\gr622_sivvya\Desktop\Praktika 1\Praktikacheskay rabota 1.3\ConsoleApp3.2\bin\Debug\net7.0\nums.txt";
+            string path = @"C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.3\ConsoleApp3.2\bin\Debug\net7.0\nums.txt";
             
             string[] pathInput = File.ReadAllLines(path);
             

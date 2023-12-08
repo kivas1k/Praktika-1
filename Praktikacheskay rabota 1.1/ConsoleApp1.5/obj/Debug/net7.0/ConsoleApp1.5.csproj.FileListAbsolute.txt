@@ -26,3 +26,18 @@ C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp1.5\obj\Debug\net
 C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.pdb
 C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.genruntimeconfig.cache
 C:\Users\gr622_sivvya\Desktop\Praktika 1\ConsoleApp1\ConsoleApp1.5\obj\Debug\net7.0\ref\ConsoleApp1.5.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\bin\Debug\net7.0\ConsoleApp1.5.exe
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\bin\Debug\net7.0\ConsoleApp1.5.deps.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\bin\Debug\net7.0\ConsoleApp1.5.runtimeconfig.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\bin\Debug\net7.0\ConsoleApp1.5.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\bin\Debug\net7.0\ConsoleApp1.5.pdb
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.AssemblyInfoInputs.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.AssemblyInfo.cs
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.csproj.CoreCompileInputs.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.sourcelink.json
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\refint\ConsoleApp1.5.dll
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.pdb
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ConsoleApp1.5.genruntimeconfig.cache
+C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.1\ConsoleApp1.5\obj\Debug\net7.0\ref\ConsoleApp1.5.dll
