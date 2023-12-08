@@ -8,32 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03f6e953-7eb7-4b6e-b059-7cb0ad58a4dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Response.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/WeatherDATA.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Praktikacheskay rabota 1.8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Praktikacheskay rabota 1.8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/Program1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/bin/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/Praktikacheskay rabota 1.8.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/ref/Praktikacheskay rabota 1.8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/ref/Praktikacheskay rabota 1.8.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/refint/Praktikacheskay rabota 1.8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Debug/net7.0/refint/Praktikacheskay rabota 1.8.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Praktikacheskay rabota 1.8.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Praktikacheskay rabota 1.8.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Praktikacheskay rabota 1.8.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/Praktikacheskay rabota 1.8.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Praktikacheskay rabota 1.8/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +102,9 @@
       <workItem from="1701939483043" duration="92000" />
       <workItem from="1701956193000" duration="167000" />
       <workItem from="1701956443129" duration="785000" />
+      <workItem from="1702006737255" duration="1131000" />
+      <workItem from="1702007967494" duration="2000" />
+      <workItem from="1702007981473" duration="246000" />
     </task>
     <servers />
   </component>

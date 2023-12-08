@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Praktikacheskay rabota 1.8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c681306707974bc273722c51f862636633c224c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Praktikacheskay rabota 1.8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Praktikacheskay rabota 1.8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
