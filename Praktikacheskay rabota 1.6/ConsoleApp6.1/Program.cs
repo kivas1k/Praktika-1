@@ -5,7 +5,7 @@
         string filename = @"C:\Users\Kivi\Desktop\Praktika-1\Praktikacheskay rabota 1.6\ConsoleApp6.1\bin\Debug\net7.0\numsTask1.txt.txt";
         
         // Читаем слова из файла
-        string[] words = File.ReadAllText(filename).Split(new char[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+        string[] words = File.ReadAllText(filename).Split(new char[] { ' ', '\t', '\n', '\r' });
 
         // Выводим все слова нечетной длины
         foreach (string word in words)
